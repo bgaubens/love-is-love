@@ -1,38 +1,188 @@
-.App {
-  text-align: center;
+.app {
+  background-color: #FFF8FA;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* Chrome */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Title component */
+
+.title {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 3% 8%;
+  flex-flow: row nowrap;
+  justify-content : flex-start;
+  border-bottom: #111111 solid 1px;
+  padding: 4% 0;
+}
+
+.title img {
+  height: 40px;
+  margin: 0px 2%;
+}
+
+.title h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #EA4C89;
+  margin: auto 0px;
+  font-size: 1.7em;
+}
+
+/* Menu component */
+
+.menu {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.menu.hidden {
+  display: none;
+}
+
+.menu h2 {
+  margin: 3% 8%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.borne {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  border: #EA4C89 3px solid;
+  margin: 2.5% 8%;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.borne .borne-title {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.borne img {
+  height: 40px;
+  margin: 5% 10%;
+}
+
+.borne li {
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin: auto 0px;
+  font-size: 1.4em;
+  min-width: 120px;
+}
+
+.borne button {
+  background-color: #FFC7DC;
+  border: none;
+  cursor: pointer;
+  color: #111111;
+  font-size: 1em;
+  margin: auto 5%;
+  border-radius: 100px;
+  height: 35px;
+  width: 35px;
+}
+
+/* Back component */
+
+.back {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 3% 8%;
+  padding: 3% 0px;
+}
+
+.back.hidden {
+  display: none;
+}
+
+.back h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.4em;
+  margin: auto 1%;
+}
+
+.back button {
+  background-color: #FFC7DC;
+  border: none;
+  color: #111111;
+  font-size: 1em;
+  margin: auto 2%;
+  border-radius: 100px;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+
+/* Borne component */
+
+.borne1 {
+  display: flex;
+  flex-flow: column nowrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0px auto;
+  max-width: 500px;
 }
 
-.App-link {
-  color: #61dafb;
+.borne1.hidden {
+  display: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.borne1 input {
+  border: #EA4C89 3px solid;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+  color: #111111;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 4em;
+  text-align: center;
+  outline: none;
+  max-width: 50%;
+  padding: 0px 5%;
+  margin: 5% auto;
 }
+
+.borne1 button {
+  background-color: #EA4C89;
+  border: none;
+  color: #FFFFFF;
+  padding: 3% 5%;
+  font-size: 1.2em;
+  border-radius: 12px;
+  max-width: 60%;
+  margin: 5% auto;
+  cursor: pointer;
+}
+
+.borne2.hidden {
+  display: none;
+}
+
+.borne3.hidden {
+  display: none;
+}
+
+.borne4.hidden {
+  display: none;
+}
+
+.borne5.hidden {
+  display: none;
+}
+
