@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/love-is-love/static/css/main.34b00ae9.css",
-    "main.js": "/love-is-love/static/js/main.31b38aa6.js",
+    "main.css": "/love-is-love/static/css/main.6fbae59c.css",
+    "main.js": "/love-is-love/static/js/main.552aa362.js",
     "static/js/787.27fcd6e3.chunk.js": "/love-is-love/static/js/787.27fcd6e3.chunk.js",
     "static/media/unlock.png": "/love-is-love/static/media/unlock.fe35b7c5ff0e34c377d8.png",
     "static/media/placeholder.png": "/love-is-love/static/media/placeholder.5d372255a9b76686a347.png",
     "index.html": "/love-is-love/index.html",
-    "main.34b00ae9.css.map": "/love-is-love/static/css/main.34b00ae9.css.map",
-    "main.31b38aa6.js.map": "/love-is-love/static/js/main.31b38aa6.js.map",
+    "main.6fbae59c.css.map": "/love-is-love/static/css/main.6fbae59c.css.map",
+    "main.552aa362.js.map": "/love-is-love/static/js/main.552aa362.js.map",
     "787.27fcd6e3.chunk.js.map": "/love-is-love/static/js/787.27fcd6e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34b00ae9.css",
-    "static/js/main.31b38aa6.js"
+    "static/css/main.6fbae59c.css",
+    "static/js/main.552aa362.js"
   ]
 }
