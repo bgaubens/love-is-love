@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/love-is-love/static/css/main.2e246404.css",
-    "main.js": "/love-is-love/static/js/main.cc766702.js",
+    "main.css": "/love-is-love/static/css/main.e320dc75.css",
+    "main.js": "/love-is-love/static/js/main.6caf6d7a.js",
     "static/js/787.27fcd6e3.chunk.js": "/love-is-love/static/js/787.27fcd6e3.chunk.js",
     "static/media/gloriette-de-buffon.png": "/love-is-love/static/media/gloriette-de-buffon.2677900c3a23d146fcd9.png",
     "static/media/unlock.png": "/love-is-love/static/media/unlock.fe35b7c5ff0e34c377d8.png",
     "static/media/calendar.png": "/love-is-love/static/media/calendar.ea368410ea518031d9e4.png",
     "static/media/placeholder.png": "/love-is-love/static/media/placeholder.5d372255a9b76686a347.png",
     "index.html": "/love-is-love/index.html",
-    "main.2e246404.css.map": "/love-is-love/static/css/main.2e246404.css.map",
-    "main.cc766702.js.map": "/love-is-love/static/js/main.cc766702.js.map",
+    "main.e320dc75.css.map": "/love-is-love/static/css/main.e320dc75.css.map",
+    "main.6caf6d7a.js.map": "/love-is-love/static/js/main.6caf6d7a.js.map",
     "787.27fcd6e3.chunk.js.map": "/love-is-love/static/js/787.27fcd6e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e246404.css",
-    "static/js/main.cc766702.js"
+    "static/css/main.e320dc75.css",
+    "static/js/main.6caf6d7a.js"
   ]
 }
